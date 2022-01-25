@@ -1848,7 +1848,21 @@ h1 a:hover span{
 #event6{
   padding: 0 30%!important;
 }
-
+@media screen and (min-width:500px) and (max-width:1028px) {
+  #resume{
+    display:inline;
+    justify-content:space-evenly;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    
+  }
+  
+}
 @media screen and (max-width:650px) {
   #footer span, #firstP, #secondP, #aboutImage{
 display:none!important;
@@ -1922,10 +1936,7 @@ display:none!important;
  }
 
 }
-#mainButton {
-  position:relative; 
-  top: 50px;
-}
+
 .site-section{
   padding-bottom: 2%;
 }
